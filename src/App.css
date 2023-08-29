@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.reset-button {
+  padding: 5px 10px;
+  font-size: 25px;
+  background-color: balck#050000;
+  color: #501b1b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: -webkit-fill-available;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

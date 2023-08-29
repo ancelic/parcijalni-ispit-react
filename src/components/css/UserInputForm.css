@@ -1,0 +1,43 @@
+
+.user-input-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+  }
+  
+  .user-input {
+    flex: 1;
+    padding: 5px;
+    font-size: 25px;
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    width: -webkit-fill-available;
+    margin-bottom: 2%;
+  }
+  
+  .submit-button {
+    padding: 5px 10px;
+    font-size: 25px;
+    background-color: #050000;
+    color: #fcf9f9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: -webkit-fill-available;
+  }
+
+  .user-input.input-error {
+    border: 1px solid red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }

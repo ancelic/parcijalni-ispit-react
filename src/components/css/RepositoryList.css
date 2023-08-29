@@ -1,0 +1,33 @@
+repo-list-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .repo-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px;
+  }
+  
+  .repo-list-item {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding: 5px 0;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+  }
+  
+  .repo-name {
+    flex: 1;
+  }
+  
+  .reset-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
